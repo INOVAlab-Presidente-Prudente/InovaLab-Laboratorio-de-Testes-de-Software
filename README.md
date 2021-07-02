@@ -23,6 +23,7 @@ em qualquer dúvida sobre o local ou o que acontece no mesmo.
  - Diretor do Inova: Diego Andreasi;
  - Orientador do Projeto: André Endo;
  - Estagiários: David Ono e Pedro Zago.
+![](./Imagens/5133.jpg)
 
 ## Coordenação, Controle de Tarefas e Comunicação
 
