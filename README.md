@@ -10,6 +10,7 @@
 Situado na Fundação Inova Prudente, o Laboratório de Testes de Software foi inaugurado no dia 04 de Dezembro de 2020, tendo a presença de 
 diversos empresários, o repesentante da UNESP - professor doutor Ronaldo Correia, o ex-prefeito Nelson Bugalho, o ex-secretário de Tecnologia Rogério Alessi 
 e o ex-diretor do Inova Prudente, Bruno Carnelóss.
+
 ![](./Imagens/1304.jpg)
 https://www.inovaprudente.com.br/noticias/empresarios-e-comunidade-dev-ganham-laboratorio-de-testes-de-software.html
 
@@ -23,6 +24,7 @@ em qualquer dúvida sobre o local ou o que acontece no mesmo.
  - Diretor do Inova: Diego Andreasi;
  - Orientador do Projeto: André Endo;
  - Estagiários: David Ono e Pedro Zago.
+
 ![](./Imagens/5133.jpg)
 
 ## Coordenação, Controle de Tarefas e Comunicação
@@ -55,6 +57,7 @@ Desse modo, foi usado a aplicação Pet Clinic para se fazer os Casos de Testes,
 
 Além disso, tem-se o Deploy feito por André Endo, no link https://andreendo.github.io/robot-webdemo/ para ser usado como Teste de Caso
 utilizando o Robot Framework, e desse modo fazer testes em logins.
+
 ![](./Imagens/login.png)
 
 Por Fim, os futuros testes de casos serão usados as VMs em https://github.com/guimattiello/MoLeWe#experimental-package.
