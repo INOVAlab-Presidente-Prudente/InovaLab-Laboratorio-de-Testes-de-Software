@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.6.9 on linux)" generated="20210320 09:48:42.593" rpa="false">
+<suite id="s1" name="Test" source="/home/sanji/git/Laboratorio-de-Testes-de-Software/RobotFramework/appiumExemplo/test.robot">
+<test id="s1-t1" name="Adicionar uma nova tarefa">
+<kw name="Abrir App" library="general">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<arguments>
+<arg>http://127.0.0.1:4723/wd/hub</arg>
+<arg>platformName=${ANDROID_PLATFORM_NAME}</arg>
+<arg>app=${ANDROID_APP}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+</arguments>
+<status status="PASS" starttime="20210320 09:48:42.808" endtime="20210320 09:48:48.546"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>Activity Diary</arg>
+</arguments>
+<status status="PASS" starttime="20210320 09:48:48.546" endtime="20210320 09:48:49.233"></status>
+</kw>
+<status status="PASS" starttime="20210320 09:48:42.808" endtime="20210320 09:48:49.233"></status>
+</kw>
+<kw name="Clicar Adicionar Nova Tarefa" library="main-page">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>accessibility_id=Add Activity</arg>
+</arguments>
+<msg timestamp="20210320 09:48:49.235" level="INFO">Clicking element 'accessibility_id=Add Activity'.</msg>
+<status status="PASS" starttime="20210320 09:48:49.234" endtime="20210320 09:48:49.327"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>id=de.rampro.activitydiary:id/edit_activity_name</arg>
+</arguments>
+<status status="PASS" starttime="20210320 09:48:49.327" endtime="20210320 09:48:50.548"></status>
+</kw>
+<status status="PASS" starttime="20210320 09:48:49.233" endtime="20210320 09:48:50.548"></status>
+</kw>
+<kw name="Inserir Tarefa" library="addtask-page">
+<arguments>
+<arg>tarefa 1</arg>
+</arguments>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=de.rampro.activitydiary:id/edit_activity_name</arg>
+<arg>${nome_tarefa}</arg>
+</arguments>
+<msg timestamp="20210320 09:48:50.551" level="INFO">Typing text 'tarefa 1' into text field 'id=de.rampro.activitydiary:id/edit_activity_name'</msg>
+<status status="PASS" starttime="20210320 09:48:50.549" endtime="20210320 09:48:50.598"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>accessibility_id=Save</arg>
+</arguments>
+<msg timestamp="20210320 09:48:50.600" level="INFO">Clicking element 'accessibility_id=Save'.</msg>
+<status status="PASS" starttime="20210320 09:48:50.599" endtime="20210320 09:48:51.284"></status>
+</kw>
+<status status="PASS" starttime="20210320 09:48:50.548" endtime="20210320 09:48:51.284"></status>
+</kw>
+<kw name="Tela Inicial Deve Conter" library="main-page">
+<arguments>
+<arg>tarefa 1</arg>
+</arguments>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>Activity Diary</arg>
+</arguments>
+<status status="PASS" starttime="20210320 09:48:51.285" endtime="20210320 09:48:52.723"></status>
+</kw>
+<kw name="Text Should Be Visible" library="AppiumLibrary">
+<doc>Verifies that element identified with text is visible.</doc>
+<arguments>
+<arg>${nome_tarefa}</arg>
+</arguments>
+<status status="PASS" starttime="20210320 09:48:52.723" endtime="20210320 09:48:52.811"></status>
+</kw>
+<status status="PASS" starttime="20210320 09:48:51.284" endtime="20210320 09:48:52.811"></status>
+</kw>
+<kw name="Fechar App" library="general">
+<kw name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<status status="PASS" starttime="20210320 09:48:52.812" endtime="20210320 09:48:53.163"></status>
+</kw>
+<status status="PASS" starttime="20210320 09:48:52.812" endtime="20210320 09:48:53.164"></status>
+</kw>
+<status status="PASS" starttime="20210320 09:48:42.807" endtime="20210320 09:48:53.164" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Adicionar uma nova tarefa 2">
+<kw name="Abrir App" library="general">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<arguments>
+<arg>http://127.0.0.1:4723/wd/hub</arg>
+<arg>platformName=${ANDROID_PLATFORM_NAME}</arg>
+<arg>app=${ANDROID_APP}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+</arguments>
+<status status="PASS" starttime="20210320 09:48:53.166" endtime="20210320 09:48:58.569"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>Activity Diary</arg>
+</arguments>
+<status status="PASS" starttime="20210320 09:48:58.569" endtime="20210320 09:48:59.221"></status>
+</kw>
+<status status="PASS" starttime="20210320 09:48:53.166" endtime="20210320 09:48:59.221"></status>
+</kw>
+<kw name="Clicar Adicionar Nova Tarefa" library="main-page">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>accessibility_id=Add Activity</arg>
+</arguments>
+<msg timestamp="20210320 09:48:59.222" level="INFO">Clicking element 'accessibility_id=Add Activity'.</msg>
+<status status="PASS" starttime="20210320 09:48:59.221" endtime="20210320 09:48:59.311"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>id=de.rampro.activitydiary:id/edit_activity_name</arg>
+</arguments>
+<status status="PASS" starttime="20210320 09:48:59.311" endtime="20210320 09:49:00.709"></status>
+</kw>
+<status status="PASS" starttime="20210320 09:48:59.221" endtime="20210320 09:49:00.709"></status>
+</kw>
+<kw name="Inserir Tarefa" library="addtask-page">
+<arguments>
+<arg>tarefa 2</arg>
+</arguments>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=de.rampro.activitydiary:id/edit_activity_name</arg>
+<arg>${nome_tarefa}</arg>
+</arguments>
+<msg timestamp="20210320 09:49:00.710" level="INFO">Typing text 'tarefa 2' into text field 'id=de.rampro.activitydiary:id/edit_activity_name'</msg>
+<status status="PASS" starttime="20210320 09:49:00.709" endtime="20210320 09:49:00.769"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>accessibility_id=Save</arg>
+</arguments>
+<msg timestamp="20210320 09:49:00.771" level="INFO">Clicking element 'accessibility_id=Save'.</msg>
+<status status="PASS" starttime="20210320 09:49:00.769" endtime="20210320 09:49:01.461"></status>
+</kw>
+<status status="PASS" starttime="20210320 09:49:00.709" endtime="20210320 09:49:01.461"></status>
+</kw>
+<kw name="Tela Inicial Deve Conter" library="main-page">
+<arguments>
+<arg>tarefa 2</arg>
+</arguments>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>Activity Diary</arg>
+</arguments>
+<status status="PASS" starttime="20210320 09:49:01.462" endtime="20210320 09:49:02.819"></status>
+</kw>
+<kw name="Text Should Be Visible" library="AppiumLibrary">
+<doc>Verifies that element identified with text is visible.</doc>
+<arguments>
+<arg>${nome_tarefa}</arg>
+</arguments>
+<status status="PASS" starttime="20210320 09:49:02.819" endtime="20210320 09:49:02.900"></status>
+</kw>
+<status status="PASS" starttime="20210320 09:49:01.462" endtime="20210320 09:49:02.900"></status>
+</kw>
+<kw name="Fechar App" library="general">
+<kw name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<status status="PASS" starttime="20210320 09:49:02.901" endtime="20210320 09:49:03.233"></status>
+</kw>
+<status status="PASS" starttime="20210320 09:49:02.900" endtime="20210320 09:49:03.233"></status>
+</kw>
+<status status="PASS" starttime="20210320 09:48:53.165" endtime="20210320 09:49:03.233" critical="yes"></status>
+</test>
+<doc>Primeiro teste usando o AppiumLibrary</doc>
+<status status="PASS" starttime="20210320 09:48:42.594" endtime="20210320 09:49:03.234"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
