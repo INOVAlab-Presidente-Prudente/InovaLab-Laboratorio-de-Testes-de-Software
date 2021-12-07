@@ -1,0 +1,1 @@
+Para um tutorial detalhado, vá para https://github.com/INOVAlab-Presidente-Prudente/tutorial-robot-framework
