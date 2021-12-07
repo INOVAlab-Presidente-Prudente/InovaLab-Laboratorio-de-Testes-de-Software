@@ -15,4 +15,6 @@ Basta fazer o download do Docker Desktop, no site:
 Para o Docker funcionar corretamente, é necessário ter o WSL2. Para isso basta baixar e executar no computador: 
  - https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
 
-### No Linux: 
+### No Linux (Ubuntu): 
+
+- https://docs.docker.com/engine/install/ubuntu/
