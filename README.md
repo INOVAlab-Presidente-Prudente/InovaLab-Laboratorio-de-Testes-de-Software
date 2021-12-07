@@ -8,7 +8,7 @@
 ## Introdução
 
 Situado na Fundação Inova Prudente, o Laboratório de Testes de Software foi inaugurado no dia 04 de Dezembro de 2020, tendo a presença de 
-diversos empresários, o repesentante da UNESP - professor doutor Ronaldo Correia, o ex-prefeito Nelson Bugalho, o ex-secretário de Tecnologia Rogério Alessi 
+diversos empresários, o representante da UNESP - professor doutor Ronaldo Correia, o ex-prefeito Nelson Bugalho, o ex-secretário de Tecnologia Rogério Alessi 
 e o ex-diretor do Inova Prudente, Bruno Carnelóss.
 
 ![](./Imagens/1304.jpg)
@@ -22,7 +22,7 @@ em qualquer dúvida sobre o local ou o que acontece no mesmo.
 
  - Prefeito Atual: Edson Tomazini;
  - Diretor do Inova: Diego Andreasi;
- - Orientador do Projeto: André Endo;
+ - Orientador do Projeto: André T. Endo;
  - Estagiários: David Ono e Pedro Zago.
 
 ![](./Imagens/5133.jpg)
@@ -30,9 +30,9 @@ em qualquer dúvida sobre o local ou o que acontece no mesmo.
 ## Coordenação, Controle de Tarefas e Comunicação
 
 O InovaLab é coordenado pelo professor doutor André Takeshi Endo, monitorado e mantido pelos estágiarios da SETEC, David Ono e Pedro Zago. 
-E como a orientação é feita à distância, tem se um controle das tarefas realizadas e em andamento através de um canal do Discord. 
+E como a orientação é feita à distância, tem se um controle das tarefas realizadas e em andamento através de um servidor no Discord. 
 Nele é registrado cada atividade realizada diariamente pelos estagiários e todas as informações importantes voltadas ao laboratório. 
-E além disso, a comunicação é realizada em formato de reuniões semanais, sempre feitas pelo Google Meet. Desse modo, se tem 
+Além disso, a comunicação é realizada em formato de reuniões semanais, sempre feitas pelo Google Meet. Desse modo, se tem 
 uma visão mais detalhada de como anda o processo das tarefas. 
 
 ## Treinamento
@@ -45,9 +45,9 @@ uma visão mais detalhada de como anda o processo das tarefas.
  
  ### Casos de Teste
 
-Os Casos de teste são modelos exemplos do que pode ser feito utilizando o espaço e os equipamentos do InovaLab. Tendo tais testes 
-prontos, pode se receber visitantes inusitados e até mesmo pessoas curiosas com o que é feito no local de trabalho. 
-Desse modo, foi usado a aplicação Pet Clinic para se fazer os Casos de Testes, sendo alguns:
+Os casos de teste são artefatos que estabelecem o comportamento esperado do software, por meio da especificação das condições de execução, entradas e saídas esperadas. Embora testes manuais são ainda populares em equipes de software, existe uma grande demanda por automatização de teste. O laboratório pretende ajudar as equipes de desenvolvimento de software a caminhar na automatização de testes.
+
+Como exemplo, foi usada a aplicação Pet Clinic para se fazer os Casos de Testes, sendo alguns:
 
  - Navegação entre as páginas;
  - Busca de Proprietarios listados; 
@@ -71,6 +71,7 @@ Por Fim, os futuros testes de casos serão usados as VMs em https://github.com/g
 
 ## Palestras
 
-O InovaLab tem a intenção de oferecer palestras e workshops com o intuíto de compartilhar os serviçoes prestados nele, e as fundações e benefícios do teste de software para a população de Presidente Prudente e região.
+O InovaLab tem a intenção de oferecer palestras e workshops com o intuito de compartilhar os serviços prestados nele, e as fundações e benefícios do teste de software para a população de Presidente Prudente e região.
 - Já contamos com uma palestra inicial realizada: "Fundamentos de Teste de Software" - ministrada pelo professor doutor André Takeshi Endo, em 17 de dezembro de 2020. 
   https://www.inovaprudente.com.br/noticias/primeira-palestra-do-inovalab-aborda-fundamentos-do-teste-de-software.html
+- Apresentações direcionadas a equipes e projetos também foram realizadas. 
