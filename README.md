@@ -1,4 +1,4 @@
-# Manual do InovaLab - Laboratório de Teste de Software
+# InovaLab - Laboratório de Teste de Software
 
 ## Editado por:
 - David Hiromi Ono - estagiário da SETEC e aluno da FCT UNESP;
