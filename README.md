@@ -79,3 +79,10 @@ O InovaLab tem a intenção de oferecer palestras e workshops com o intuito de c
 ## Recursos Desenvolvidos
 
 Veja as pastas fornecidas neste repositório. 
+
+## Links relacionados
+
+- https://inovaprudente.com.br/noticias/inovalab-finaliza-seu-primeiro-case-de-teste-de-software.html
+- https://github.com/INOVAlab-Presidente-Prudente/tutorial-robot-framework
+- https://inovaprudente.com.br/noticias/empresarios-e-comunidade-dev-ganham-laboratorio-de-testes-de-software.html
+- https://inovaprudente.com.br/noticias/reuniao-organiza-execucao-do-laboratorio-de-testes-de-software.html
