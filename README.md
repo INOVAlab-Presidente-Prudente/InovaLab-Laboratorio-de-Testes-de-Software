@@ -75,3 +75,7 @@ O InovaLab tem a intenção de oferecer palestras e workshops com o intuito de c
 - Já contamos com uma palestra inicial realizada: "Fundamentos de Teste de Software" - ministrada pelo professor doutor André Takeshi Endo, em 17 de dezembro de 2020. 
   https://www.inovaprudente.com.br/noticias/primeira-palestra-do-inovalab-aborda-fundamentos-do-teste-de-software.html
 - Apresentações direcionadas a equipes e projetos também foram realizadas. 
+
+## Recursos Desenvolvidos
+
+Veja as pastas fornecidas neste repositório. 
